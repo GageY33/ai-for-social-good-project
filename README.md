@@ -5,7 +5,10 @@ The problem is with the high cost of living in Silicon Valley, in which cost of 
 The capabilities of both Lab 2 and Lab 3 address the failure point in that both labs utilize AI capabilities to help asccess the situations of low-income individuals and identify specific underlying problems and issues, as well as give supportive advice and recommendations such as referrals to particular departments that are able to better support these individuals with their current living conditions. Lab 3 focuses on AI performing image-recognition, where the AI system analyzes images to identify visible environmental or housing issues, such as unsafe conditions, overcrowding, or signs of neglect. The AI then identifies problems and risks involved with its analysis of the image, and outputs a structured profile that summarizes the individual’s situation, including their main needs, urgency level, and suggested support services. The system delivers personalized recommendations directly to the user, helping them understand what support they qualify for and guiding them step by step on how to access those services.
 
 ## Workflow 
-## 3. Workflow
+
+## Lab 2. Workflow 
+
+## Lab 3. Workflow
 
 ### Input
 Residents submit:
@@ -58,6 +61,8 @@ AI returned:
   "department": "Food Assistance Program",
   "resident_language": "English"
 }
+
+<img width="1822" height="372" alt="image" src="https://github.com/user-attachments/assets/7b1b8ed0-f217-43f1-8d63-32676f8d5670" />
 
 Although the system correctly identified food insecurity, it underestimated the urgency level. The resident mentioned skipping meals to save money and struggling with rent costs, which are indicators of financial instability and potential hidden hardship. However, because the message did not include strong emergency keywords such as “homeless,” “evicted,” or “starving,” the AI classified the situation as only MEDIUM urgency.
 
