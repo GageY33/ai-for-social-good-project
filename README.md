@@ -5,18 +5,62 @@ The problem is with the high cost of living in Silicon Valley, in which cost of 
 The capabilities of both Lab 2 and Lab 3 address the failure point in that both labs utilize AI capabilities to help asccess the situations of low-income individuals and identify specific underlying problems and issues, as well as give supportive advice and recommendations such as referrals to particular departments that are able to better support these individuals with their current living conditions. Lab 3 focuses on AI performing image-recognition, where the AI system analyzes images to identify visible environmental or housing issues, such as unsafe conditions, overcrowding, or signs of neglect. The AI then identifies problems and risks involved with its analysis of the image, and outputs a structured profile that summarizes the individual’s situation, including their main needs, urgency level, and suggested support services. The system delivers personalized recommendations directly to the user, helping them understand what support they qualify for and guiding them step by step on how to access those services.
 
 ## Workflow 
-Proposed System:
+## 3. Workflow
 
-Input: A resident submits either a text message describing their financial situation or an image showing their living conditions.
+### Input
+Residents submit:
+- a text message describing their situation
+- OR
+- an image showing their living conditions
 
-AI Processing:
+Example:
+"I was evicted from my home on Capitol Ave."
 
-Lab 2 (Structured Data Extraction): The system extracts key information from text input, including location, primary need (housing, food, childcare, utilities), urgency level, recommended service, and resident language. Lab 3 (Visual Recognition): The system analyzes images to identify visible environmental or housing issues, such as unsafe conditions, overcrowding, or signs of neglect.
+---
 
-Output: A structured profile that summarizes the individual’s situation, including their main needs, urgency level, and suggested support services.
+### AI Processing
 
-Real-World Action: The system delivers personalized recommendations directly to the user, helping them understand what support they qualify for and guiding them step by step on how to access those services.
+1. Gemini analyzes text using structured extraction prompts.
+
+3. Gemini analyzes images using visual recognition prompts.
+<img width="1126" height="476" alt="image" src="https://github.com/user-attachments/assets/34140a5a-f4c9-458a-a8f8-4eb4a0f2db91" />
+<img width="1141" height="726" alt="image" src="https://github.com/user-attachments/assets/813dbf3b-e0a6-4cd5-b009-1a7c5135a462" />
+
+
+---
+
+### Output
+
+The AI returns:
+- urgency level
+- resource type
+- city department recommendation
+- resident profile summary
+
+Example output:
+<img width="1151" height="817" alt="image" src="https://github.com/user-attachments/assets/32634957-3f14-4243-8506-76e6dd67129a" />
+
 
 ## Failure Case 
+One failure case occurred when the AI analyzed an edge-case message where the resident described financial hardship indirectly rather than using explicit emergency keywords.
+
+Example:
+edge_case_message = (
+    "I'm doing okay for now, but sometimes I skip meals to save money. "
+    "My kids eat fine though. Rent is high but I manage most months."
+)
+
+AI returned:
+{
+  "location": "",
+  "need_type": "food insecurity",
+  "urgency": "MEDIUM",
+  "department": "Food Assistance Program",
+  "resident_language": "English"
+}
+
+Although the system correctly identified food insecurity, it underestimated the urgency level. The resident mentioned skipping meals to save money and struggling with rent costs, which are indicators of financial instability and potential hidden hardship. However, because the message did not include strong emergency keywords such as “homeless,” “evicted,” or “starving,” the AI classified the situation as only MEDIUM urgency.
+
+This demonstrates a limitation of AI systems when interpreting subtle or indirect language. People experiencing hardship may minimize their struggles or describe them in less explicit ways, causing the model to underestimate the severity of the situation.
 
 ## Oversight and Tradeoff
