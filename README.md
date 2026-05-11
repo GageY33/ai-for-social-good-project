@@ -57,9 +57,6 @@ Example output:
 <img width="1832" height="637" alt="image" src="https://github.com/user-attachments/assets/0b2c62a0-b5a3-421d-8cbb-a27b7c12c0d1" />
 <img width="1827" height="251" alt="image" src="https://github.com/user-attachments/assets/9020e630-8b07-4828-a16e-48f3f394ed0a" />
 
-<img width="1151" height="817" alt="image" src="https://github.com/user-attachments/assets/32634957-3f14-4243-8506-76e6dd67129a" />
-
-
 ## Failure Case 
 One failure case occurred when the AI analyzed an edge-case message where the resident described financial hardship indirectly rather than using explicit emergency keywords.
 
