@@ -30,7 +30,7 @@ The AI returns:
 - urgency level of the user's situation 
 - location of the user
 - type of assistance need 
-- resource type
+- language used by the user
 - city department recommendation to support the user's situation
 
 Example output:
