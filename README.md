@@ -39,6 +39,7 @@ Example output:
 
 2. Gemini analyzes images using visual recognition prompts.
 <img width="1126" height="476" alt="image" src="https://github.com/user-attachments/assets/34140a5a-f4c9-458a-a8f8-4eb4a0f2db91" />
+<img width="1770" height="496" alt="image" src="https://github.com/user-attachments/assets/5a595237-04ec-42b9-9b2c-437b0d377933" />
 <img width="1141" height="726" alt="image" src="https://github.com/user-attachments/assets/813dbf3b-e0a6-4cd5-b009-1a7c5135a462" />
 
 
