@@ -6,10 +6,6 @@ The capabilities of both Lab 2 and Lab 3 address the failure point in that both 
 
 ## Workflow 
 
-## Lab 2. Workflow 
-
-## Lab 3. Workflow
-
 ### Input
 Residents submit:
 - a text message describing their situation
