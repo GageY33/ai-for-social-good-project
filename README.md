@@ -20,8 +20,11 @@ Example:
 ### AI Processing
 
 1. Gemini analyzes text using structured extraction prompts.
+<img width="1777" height="602" alt="image" src="https://github.com/user-attachments/assets/738ffd0d-1fd5-4873-bc93-f4b476c9bcb0" />
+<img width="1766" height="732" alt="image" src="https://github.com/user-attachments/assets/7f670f65-c029-47e6-84e2-594cd5f7cff9" />
+<img width="1762" height="392" alt="image" src="https://github.com/user-attachments/assets/b1b65b15-7c31-4a72-9428-9ac17c11faae" />
 
-3. Gemini analyzes images using visual recognition prompts.
+2. Gemini analyzes images using visual recognition prompts.
 <img width="1126" height="476" alt="image" src="https://github.com/user-attachments/assets/34140a5a-f4c9-458a-a8f8-4eb4a0f2db91" />
 <img width="1141" height="726" alt="image" src="https://github.com/user-attachments/assets/813dbf3b-e0a6-4cd5-b009-1a7c5135a462" />
 
