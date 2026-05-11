@@ -24,6 +24,16 @@ Example:
 <img width="1766" height="732" alt="image" src="https://github.com/user-attachments/assets/7f670f65-c029-47e6-84e2-594cd5f7cff9" />
 <img width="1762" height="392" alt="image" src="https://github.com/user-attachments/assets/b1b65b15-7c31-4a72-9428-9ac17c11faae" />
 
+### Output
+
+The AI returns:
+- urgency level
+- resource type
+- city department recommendation
+- resident profile summary
+
+Example output:
+<img width="1151" height="817" alt="image" src="https://github.com/user-attachments/assets/32634957-3f14-4243-8506-76e6dd67129a" />
 
 
 2. Gemini analyzes images using visual recognition prompts.
