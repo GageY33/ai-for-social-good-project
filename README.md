@@ -40,7 +40,6 @@ Example output:
 2. Gemini analyzes images using visual recognition prompts.
 <img width="1126" height="476" alt="image" src="https://github.com/user-attachments/assets/34140a5a-f4c9-458a-a8f8-4eb4a0f2db91" />
 <img width="1770" height="496" alt="image" src="https://github.com/user-attachments/assets/5a595237-04ec-42b9-9b2c-437b0d377933" />
-<img width="1141" height="726" alt="image" src="https://github.com/user-attachments/assets/813dbf3b-e0a6-4cd5-b009-1a7c5135a462" />
 
 
 ---
@@ -48,12 +47,16 @@ Example output:
 ### Output
 
 The AI returns:
-- urgency level
-- resource type
-- city department recommendation
-- resident profile summary
+- a detailed description and analysis of the problems identified in the image as well as identification of particular elements or features in the image
+- types of risks or impacts involved from the problem(s) identified, such as public health impact, safety impact, community impacts
+- urgency level of the situation identified
+- recommendation of city departments to help with the identified problem(s), and recommended course of action from these departments 
 
 Example output:
+<img width="1830" height="631" alt="image" src="https://github.com/user-attachments/assets/f5f1aee9-f1f8-47cc-9a24-c018693fab7b" />
+<img width="1832" height="637" alt="image" src="https://github.com/user-attachments/assets/0b2c62a0-b5a3-421d-8cbb-a27b7c12c0d1" />
+<img width="1827" height="251" alt="image" src="https://github.com/user-attachments/assets/9020e630-8b07-4828-a16e-48f3f394ed0a" />
+
 <img width="1151" height="817" alt="image" src="https://github.com/user-attachments/assets/32634957-3f14-4243-8506-76e6dd67129a" />
 
 
