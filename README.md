@@ -2,7 +2,7 @@
 The problem is with the high cost of living in Silicon Valley, in which cost of living in Silicon Valley exceeds the national average cost of living rates. This problem affects low-income communities, where low-income individuals struggle to afford basic necessities such as housing, food, and utilities. What breaks down for this community of people is the key failure point of not just insufficient income, but the lack of accessible, structured systems that help them identify and connect to relevant assistance programs that could help low-income communities find the support they need. 
 
 ## AI Capability 
-The capabilities of both Lab 2 and Lab 3 address the failure point in that both labs utilize AI capabilities to help access the situations of low-income individuals and identify specific underlying problems and issues, as well as give supportive advice and recommendations such as referrals to particular departments that are able to better support these individuals with their current living conditions. Lab 3 focuses on AI performing image-recognition, where the AI system analyzes images to identify visible environmental or housing issues, such as unsafe conditions, overcrowding, or signs of neglect. The AI then identifies problems and risks involved with its analysis of the image, and outputs a structured profile that summarizes the individual’s situation, including their main needs, urgency level, and suggested support services. The system delivers personalized recommendations directly to the user, helping them understand what support they qualify for and guiding them step by step on how to access those services.
+The capabilities of both Lab 2 and Lab 3 address the failure point in that both labs utilize AI capabilities to help access the situations of low-income individuals and identify specific underlying problems and issues, as well as give supportive advice and recommendations such as referrals to particular departments that are able to better support these individuals with their current living conditions. Lab 2 focuses on a structured extraction system that takes user text input and analyzes it to return five fields that are specified in the schema prompt, all which help in identifying the user's struggles and identifying solutions and resources that can help the user. Lab 3 focuses on AI performing image-recognition, where the AI system analyzes images to identify visible environmental or housing issues, such as unsafe conditions, overcrowding, or signs of neglect. The AI then identifies problems and risks involved with its analysis of the image, and outputs a structured profile that summarizes the individual’s situation, including their main needs, urgency level, and suggested support services. The system delivers personalized recommendations directly to the user, helping them understand what departments can help them, and what their services can provide. 
 
 ## Workflow 
 
@@ -56,6 +56,9 @@ Example output:
 <img width="1830" height="631" alt="image" src="https://github.com/user-attachments/assets/f5f1aee9-f1f8-47cc-9a24-c018693fab7b" />
 <img width="1832" height="637" alt="image" src="https://github.com/user-attachments/assets/0b2c62a0-b5a3-421d-8cbb-a27b7c12c0d1" />
 <img width="1827" height="251" alt="image" src="https://github.com/user-attachments/assets/9020e630-8b07-4828-a16e-48f3f394ed0a" />
+
+### Who Acts On It
+In terms of who acts on determining how the AI system is used and implemented, this should be done by the officials of the City of San Jose.
 
 ## Failure Case 
 One failure case occurred when the AI analyzed an edge-case message where the resident described financial hardship indirectly rather than using explicit emergency keywords.
