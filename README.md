@@ -27,10 +27,11 @@ Example:
 ### Output
 
 The AI returns:
-- urgency level
+- urgency level of the user's situation 
+- location of the user
+- type of assistance need 
 - resource type
-- city department recommendation
-- resident profile summary
+- city department recommendation to support the user's situation
 
 Example output:
 <img width="1151" height="817" alt="image" src="https://github.com/user-attachments/assets/32634957-3f14-4243-8506-76e6dd67129a" />
